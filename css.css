@@ -1,0 +1,70 @@
+*{
+    /* border: solid 1px; */
+    font-family: 微軟正黑體;
+    position: relative;
+}
+.card {
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #654236;
+    background-color: #f1fffa; 
+    border-radius: 3%;
+    width: 310px; height: 200px;
+    padding: 30px 30px 15px 30px;
+    font-family: 微軟正黑體;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+body {
+    margin: auto;
+    background-color: #93b7be;
+    border-top: solid 20px #444;
+    border-bottom: solid 20px #444;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+hr {
+    border: solid 1px;
+    color: rgb(154, 99, 18);
+}
+span {
+    font-size: 15px;
+}
+
+.name,.job{
+    margin-top: 10px;
+}
+.circle{
+    border-radius: 100%;
+    width: 70px; height: 70px;
+    border: solid #605856 6px;
+    position: absolute;
+}
+
+.circle1{
+    width: 100px; height: 100px;
+    right: 50px; bottom: -70px;
+    background-color: #605856
+}
+
+.circle2{
+    right: -35px; top: -35px;
+}
+
+.job{
+    color: #504;
+}
+
+.mark{
+    margin-top: 200px;
+    line-height: 230px;
+    font-weight: 100;
+    font-size: 300;
+    position: absolute;
+    color: rgba(0,0,0,0.2);
+}
